@@ -25,11 +25,7 @@ const App = () => {
     Bridge.updateRegistry();
   }, []);
 
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      {/* <Text>Current state is: {appStateVisible}</Text> */}
-    </SafeAreaView>
-  );
+  return null;
 };
 
 export default App;
